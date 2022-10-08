@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHashtag } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const classes = useStyles({});
