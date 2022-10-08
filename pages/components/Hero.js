@@ -15,8 +15,8 @@ const Hero = () => {
         <div className={classes.image2}></div>
       </div>
       <div className={classes.paragWrapper}>
-        <h2>KAZAMIGA TRAVEL & ADVENTURE</h2>
-        <p>
+        <p className={classes.paragTitle}>KAZAMIGA TRAVEL & ADVENTURE</p>
+        <p className={classes.parag1}>
           Kazamiga is a travel and lifestyle blog featuring destination guides,
           travel photography, food guides, and a healthy dose of adventure. From
           the UK and wider Europe to Africa, Asia and the Americas, Kazamiga is
@@ -24,7 +24,7 @@ const Hero = () => {
           photography, food guides, and a healthy dose of adventure. From the UK
           and wider Europe to Africa, Asia and the Americas,{" "}
         </p>
-        <p>
+        <p className={classes.parag2}>
           Kazamiga is a travel and lifestyle blog featuring destination guides,
           travel photography, food guides, and a healthy dose of adventure.{" "}
         </p>
@@ -56,6 +56,18 @@ const useStyles = createUseStyles({
     width: "50%",
     marginLeft: 100,
     marginRight: 40,
+  },
+  paragTitle: {
+    fontSize: 40,
+  },
+  parag1: {
+    fontSize: 30,
+    fontFamily: "Playfair Display",
+    fontWeight: "lighter",
+  },
+  parag2: {
+    fontSize: 25,
+    fontFamily: "Playfair Display",
   },
   title: {},
   image1: {

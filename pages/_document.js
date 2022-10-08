@@ -34,6 +34,10 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link href="link to font" rel="../styles/globals.css" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Playfair+Display&display=swap"
+            rel="../styles/globals.css"
+          />
         </Head>
         <body>
           <Main />
