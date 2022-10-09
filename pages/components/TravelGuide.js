@@ -6,7 +6,7 @@ const TravelGuide = () => {
   return (
     <>
       <div className={classes.wrapper}>
-        <h1>Travel Guide</h1>
+        <h1 className={classes.guideTitle}>Travel Guide</h1>
       </div>
       <div className={classes.imageWrapper}>
         <div className={classes.imageGuide1}></div>
@@ -25,6 +25,12 @@ const useStyles = createUseStyles({
     justifyContent: "center",
     margin: "50px 0 50px 0",
   },
+  guideTitle: {
+    fontSize: 40,
+    fontFamily: "Playfair Display",
+    fontWeight: "lighter",
+    lineHeight: "1.5em",
+  },
   imageWrapper: {
     height: "100vh",
     display: "flex",
@@ -37,6 +43,8 @@ const useStyles = createUseStyles({
     width: "25%",
     height: "75vh",
     marginTop: 50,
+    border: "2px solid #2c2c2c",
+    marginRight: 10,
   },
   imageGuide2: {
     background: "url(/kazamiga-2.png)",
@@ -44,6 +52,8 @@ const useStyles = createUseStyles({
     backgroundSize: "cover",
     width: "25%",
     height: "75vh",
+    border: "2px solid #2c2c2c",
+    marginRight: 10,
   },
   imageGuide3: {
     background: "url(/kazamiga-3.png)",
@@ -52,6 +62,9 @@ const useStyles = createUseStyles({
     width: "25%",
     height: "75vh",
     marginTop: 50,
+    marginRight: 10,
+
+    border: "2px solid #2c2c2c",
   },
   imageGuide4: {
     background: "url(/kazamiga-2.png)",
@@ -59,6 +72,7 @@ const useStyles = createUseStyles({
     backgroundSize: "cover",
     width: "25%",
     height: "75vh",
+    border: "2px solid #2c2c2c",
   },
 });
 export default TravelGuide;

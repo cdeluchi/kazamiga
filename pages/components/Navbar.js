@@ -50,6 +50,7 @@ const useStyles = createUseStyles({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
+    maxWidth: 1140,
   },
   links: {
     display: "flex",

@@ -3,7 +3,17 @@ import { createUseStyles } from "react-jss";
 
 const Footer = () => {
   const classes = useStyles({});
-  return <div>Footer</div>;
+  return (
+    <div className={classes.footer}>
+      <p>@KAZAMIGA</p>
+    </div>
+  );
 };
-const useStyles = createUseStyles({});
+const useStyles = createUseStyles({
+  footer: {
+    background: "#2c2c2c",
+    height: "10vh",
+    color: "#fff",
+  },
+});
 export default Footer;

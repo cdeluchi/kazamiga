@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+// import { createUseStyles } from "react-jss";
 import styles from "../styles/Home.module.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -9,8 +10,10 @@ import AboutHero from "./components/AboutHero";
 import JoinInstagram from "./components/JoinInstagram";
 import RecentPosts from "./components/RecentPosts";
 import SignUp from "./components/SignUp";
+// import { Height } from "@material-ui/icons";
 
 export default function Home() {
+  // const classes = useStyles({});
   return (
     <div className={styles.container}>
       <Head>
@@ -29,3 +32,9 @@ export default function Home() {
     </div>
   );
 }
+
+// const useStyles = createUseStyles({
+//   container: {
+//     width: 2048,
+// //   },
+// });

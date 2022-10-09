@@ -6,13 +6,11 @@ const Hero = () => {
   const classes = useStyles({});
   return (
     <div className={classes.heroWrapper}>
-      {/* <div className={classes.heroWrapperIn}> */}
       <div className={classes.imageWrapper}>
         <div className={classes.title}>
           <h3>Travel with us</h3>
         </div>
         <div className={classes.image1}></div>
-        <div className={classes.image2}></div>
       </div>
       <div className={classes.paragWrapper}>
         <p className={classes.paragTitle}>KAZAMIGA TRAVEL & ADVENTURE</p>
@@ -30,7 +28,6 @@ const Hero = () => {
         </p>
       </div>
     </div>
-    // </div>
   );
 };
 const useStyles = createUseStyles({
@@ -64,32 +61,26 @@ const useStyles = createUseStyles({
     fontSize: 30,
     fontFamily: "Playfair Display",
     fontWeight: "lighter",
+    lineHeight: "1.5em",
   },
   parag2: {
     fontSize: 25,
     fontFamily: "Playfair Display",
   },
-  title: {},
+  title: {
+    fontSize: 25,
+    fontFamily: "Playfair Display",
+    fontWeight: "lighter",
+  },
   image1: {
-    position: "absolute",
+    // position: "absolute",
     background: "url(/kazamiga-2.png)",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    width: "45vw",
+    width: "100%",
     height: "80vh",
-  },
-  image2: {
-    position: "relative",
-    background: "url(/kazamiga-3.png)",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    width: "35%",
-    height: "50%",
-    left: "-5%",
   },
 });
 export default Hero;
