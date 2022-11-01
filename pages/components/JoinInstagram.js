@@ -6,7 +6,7 @@ const JoinInstagram = () => {
   return (
     <>
       <div className={classes.wrapper}>
-        <h1 className={classes.guideTitle}>Travel Guide</h1>
+        <h1 className={classes.guideTitle}>Follow us in Instagram</h1>
       </div>
       <div className={classes.imageWrapper}>
         <div className={classes.imageGuide1}></div>
@@ -33,7 +33,7 @@ const useStyles = createUseStyles({
     lineHeight: "1.5em",
   },
   imageWrapper: {
-    height: "100vh",
+    // height: "100vh",
     display: "flex",
     justifyContent: "center",
   },

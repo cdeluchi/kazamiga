@@ -11,13 +11,13 @@ const AboutHero = () => {
         <div className={classes.paragWrapper}>
           <p className={classes.paragTitle}>KAZAMIGA TRAVEL & ADVENTURE</p>
           <p className={classes.parag1}>
-            Kazamiga is a travel and lifestyle blog featuring destination
-            guides, travel photography, food guides, and a healthy dose of
-            adventure. From the UK and wider Europe to Africa, Asia and the
-            Americas, Kazamiga is a travel and lifestyle blog featuring
-            destination guides, travel photography, food guides, and a healthy
-            dose of adventure. From the UK and wider Europe to Africa, Asia and
-            the Americas,{" "}
+            Whereas recognition of the inherent dignity Kazamiga is a travel and
+            lifestyle blog featuring destination guides, travel photography,
+            food guides, and a healthy dose of adventure. From the UK and wider
+            Europe to Africa, Asia and the Americas, Kazamiga is a travel and
+            lifestyle blog featuring destination guides, travel photography,
+            food guides, and a healthy dose of adventure. From the UK and wider
+            Europe to Africa, Asia and the Americas,{" "}
           </p>
           <p className={classes.parag2}>
             Kazamiga is a travel and lifestyle blog featuring destination
@@ -37,9 +37,10 @@ const useStyles = createUseStyles({
     fontSize: 40,
     display: "flex",
     justifyContent: "center",
-    fontFamily: "Playfair Display",
+    fontFamily: "Cormorant",
     fontWeight: "lighter",
     lineHeight: "1.5em",
+    // background: "red",
   },
   heroWrapper: {
     display: "flex",
@@ -68,14 +69,15 @@ const useStyles = createUseStyles({
     fontSize: 40,
   },
   parag1: {
+    // background: "green",
     fontSize: 30,
-    fontFamily: "Playfair Display",
-    fontWeight: "lighter",
+    // fontFamily: "Nato",
+    fontWeight: 400,
     lineHeight: "1.5em",
   },
   parag2: {
     fontSize: 25,
-    fontFamily: "Playfair Display",
+    // fontFamily: "Playfair Display",
   },
   title: {
     fontSize: 25,

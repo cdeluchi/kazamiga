@@ -35,7 +35,15 @@ class MyDocument extends Document {
         <Head>
           <link href="link to font" rel="../styles/globals.css" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Playfair+Display&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500display=swap"
+            rel="../styles/globals.css"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap"
+            rel="../styles/globals.css"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
             rel="../styles/globals.css"
           />
         </Head>

@@ -14,6 +14,8 @@ const useStyles = createUseStyles({
     background: "#2c2c2c",
     height: "10vh",
     color: "#fff",
+    textAlign: "center",
+    padding: 20,
   },
 });
 export default Footer;

@@ -35,6 +35,7 @@ export default function Home() {
 
 // const useStyles = createUseStyles({
 //   container: {
-//     width: 2048,
-// //   },
+//     width: 1140,
+//     margin: "0 auto",
+//   },
 // });

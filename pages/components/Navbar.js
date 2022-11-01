@@ -51,20 +51,21 @@ const useStyles = createUseStyles({
     justifyContent: "space-between",
     alignItems: "center",
     maxWidth: 1140,
+    margin: "0 auto",
   },
   links: {
     display: "flex",
     width: "30%",
     justifyContent: "space-around",
     alignItems: "center",
-    color: "#4D4D4D",
+    color: "#2c2c2c",
   },
   media: {
     display: "flex",
     width: "10%",
     justifyContent: "space-around",
     alignItems: "center",
-    color: "#4D4D4D",
+    color: "#2c2c2c",
   },
   icon: {
     width: 25,

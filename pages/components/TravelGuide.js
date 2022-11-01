@@ -23,7 +23,7 @@ const useStyles = createUseStyles({
     fontWeight: "lighter",
     display: "flex",
     justifyContent: "center",
-    margin: "50px 0 50px 0",
+    margin: "0 auto",
   },
   guideTitle: {
     fontSize: 40,
